@@ -1,0 +1,22 @@
+{
+  "name": "user-manager",
+  "version": "1.0.0",
+  "description": "A restful API for a user management system",
+  "main": "server.js",
+  "scripts": {
+    "start" : "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node-api-crud"
+  },
+  "author": "Kenneth Lord",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
